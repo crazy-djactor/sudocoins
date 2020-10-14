@@ -1,0 +1,10 @@
+{
+  "auth": {
+    "sudocoinds207edea6207edea6": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  }
+}

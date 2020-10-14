@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-sudocoinds-dev-215616-authRole",
+      "UnauthRoleArn": "arn:aws:iam::977566059069:role/amplify-sudocoinds-dev-215616-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::977566059069:role/amplify-sudocoinds-dev-215616-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-sudocoinds-dev-215616-deployment",
+      "UnauthRoleName": "amplify-sudocoinds-dev-215616-unauthRole",
+      "StackName": "amplify-sudocoinds-dev-215616",
+      "StackId": "arn:aws:cloudformation:us-west-2:977566059069:stack/amplify-sudocoinds-dev-215616/f31c05b0-0e4e-11eb-b216-0a582b86cc3c",
+      "AmplifyAppId": "dm2bykcpukzne"
+    },
+    "categories": {
+      "auth": {
+        "sudocoinds207edea6207edea6": {}
+      }
+    }
+  }
+}
