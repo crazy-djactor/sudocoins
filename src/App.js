@@ -1,22 +1,13 @@
-import React from "react";
-import { Authenticator } from "aws-amplify-react";
-import "./App.css";
-import Amplify from "aws-amplify";
-import awsconfig from "./aws-exports";
-import AuthWrapper from "./Components/AuthWrapper";
+import * as React from 'react';
 
-Amplify.configure(awsconfig);
+/** Components */
+import AppRouter from './Navigation/Routes';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <Authenticator hideDefault={true} amplifyConfig={awsconfig}>
-          <AuthWrapper />
-        </Authenticator>
-      </header>
-    </div>
-  );
-}
+/** Ant design stylesheet */
+import 'antd/dist/antd.css';
+
+const App: React.FC = () => {
+  return <AppRouter />;
+};
 
 export default App;
